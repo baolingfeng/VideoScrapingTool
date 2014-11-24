@@ -1,0 +1,4 @@
+ROWS 5
+CONTENT 4
+FIRST_DETECT TRUE
+run_debug package search

@@ -1,0 +1,13 @@
+Belong=GUIItem
+Index=2
+ToBeScraped=false
+NumberOfVisualCue=3
+V1.name=outlook
+V1.icons=gmail
+V1.isunique=false
+V2.name=lfd
+V2.icons=go_forward, go_forward2
+V2.isunique=false
+V3.name=Refresh
+V3.icons=refresh, refresh2
+V3.isunique=false

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1021</width>
+    <height>756</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>scvRipper</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="imagesview">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>711</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>841</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>0</y>
+      <width>20</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1021</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVideo">
+    <property name="title">
+     <string>scvRipper</string>
+    </property>
+    <addaction name="actionVideo_Differencing"/>
+    <addaction name="actionLoad_Images"/>
+    <addaction name="actionSetting"/>
+    <addaction name="actionTemplate_Configuration"/>
+    <addaction name="actionRun"/>
+   </widget>
+   <addaction name="menuVideo"/>
+  </widget>
+  <action name="actionLoad_Images">
+   <property name="text">
+    <string>Load Images</string>
+   </property>
+  </action>
+  <action name="actionSet_Output_Folder">
+   <property name="text">
+    <string>Set Output Folder</string>
+   </property>
+  </action>
+  <action name="actionTemplate_Folder">
+   <property name="text">
+    <string>Template Folder</string>
+   </property>
+  </action>
+  <action name="actionTemplate_Configuration">
+   <property name="text">
+    <string>Template Configuration</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </action>
+  <action name="actionVideo_Differencing">
+   <property name="text">
+    <string>Video Differencing</string>
+   </property>
+  </action>
+  <action name="actionSetting">
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

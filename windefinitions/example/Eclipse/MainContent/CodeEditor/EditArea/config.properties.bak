@@ -1,0 +1,6 @@
+Belong=GUIItem
+Index=2
+NumberOfVisualCue=1
+V1.name=tips
+V1.icons=warning, error
+V1.isunique=false

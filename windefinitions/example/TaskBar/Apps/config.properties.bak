@@ -1,0 +1,16 @@
+Belong=GUIItem
+Index=2
+ToBeScraped=false
+NumberOfVisualCue=4
+V1.name=Chrome
+V1.icons=chrome
+V1.isunique=true
+V2.name=Start
+V2.icons=start
+V2.isunique=true
+V3.name=Start
+V3.icons=start
+V3.isunique=true
+V4.name=Start
+V4.icons=start
+V4.isunique=true

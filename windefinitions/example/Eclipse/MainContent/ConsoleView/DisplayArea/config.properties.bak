@@ -1,0 +1,6 @@
+Belong=GUIItem
+Index=1
+NumberOfVisualCue=1
+V1.name=console
+V1.icons=console_view, problems_view, problems_view_error, problems_view_warning
+V1.isunique=false

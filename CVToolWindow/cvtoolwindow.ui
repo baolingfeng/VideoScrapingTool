@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>CVToolWindowClass</class>
+ <widget class="QWidget" name="CVToolWindowClass" >
+  <property name="objectName" >
+   <string notr="true">CVToolWindowClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>CVToolWindow</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="cvtoolwindow.qrc"/>
+ </resources>
+ <connections/>
+</UI>

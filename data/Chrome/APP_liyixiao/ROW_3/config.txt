@@ -1,0 +1,2 @@
+ITEMS 3
+NOUNIQUE 1 2 3 -1

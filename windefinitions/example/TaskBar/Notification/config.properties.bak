@@ -1,0 +1,7 @@
+Belong=GUIItem
+Index=3
+ToBeScraped=false
+NumberOfVisualCue=1
+V1.name=flag
+V1.icons=start
+V1.isunique=true

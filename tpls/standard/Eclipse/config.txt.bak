@@ -1,0 +1,4 @@
+ROWS 5
+CONTENT 4
+FIRST_DETECT FALSE
+run_exc debug_exc jedit jedit_warning console_view

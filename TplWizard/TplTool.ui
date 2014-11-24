@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TplWindow</class>
+ <widget class="QMainWindow" name="TplWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>782</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Template Tool</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="listTpl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>151</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Existing Templates</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listApp">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>151</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Applications</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="ListRow">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>40</y>
+      <width>151</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rows</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listIcon">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>40</y>
+      <width>141</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>20</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Icons</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelIcon">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>40</y>
+      <width>46</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="maskLabel">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>130</y>
+      <width>46</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>190</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Content Row</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editContentRow">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>230</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Url Row</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editUrlRow">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>230</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>782</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTemplates">
+    <property name="title">
+     <string>Templates</string>
+    </property>
+    <addaction name="actionNew_Template"/>
+    <addaction name="actionNew_Template_Copy"/>
+    <addaction name="actionDelete_Template"/>
+   </widget>
+   <widget class="QMenu" name="menuApplication">
+    <property name="title">
+     <string>Application</string>
+    </property>
+    <addaction name="actionNew_Application"/>
+    <addaction name="actionNewApplicationCopy"/>
+    <addaction name="actionDeleteApp"/>
+   </widget>
+   <widget class="QMenu" name="menuRow">
+    <property name="title">
+     <string>Row</string>
+    </property>
+    <addaction name="actionAddBefore"/>
+    <addaction name="actionAdd_After"/>
+    <addaction name="actionDelete_A_row"/>
+    <addaction name="actionRow_Config"/>
+   </widget>
+   <widget class="QMenu" name="menuIcon">
+    <property name="title">
+     <string>Icon</string>
+    </property>
+    <addaction name="actionAddIcon"/>
+    <addaction name="actionDeleteIcon"/>
+    <addaction name="actionAdd_Mask"/>
+   </widget>
+   <widget class="QMenu" name="menuTool">
+    <property name="title">
+     <string>Tool</string>
+    </property>
+   </widget>
+   <addaction name="menuTemplates"/>
+   <addaction name="menuApplication"/>
+   <addaction name="menuRow"/>
+   <addaction name="menuIcon"/>
+   <addaction name="menuTool"/>
+  </widget>
+  <action name="actionNew_Template">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionNew_Application">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionNewApplicationCopy">
+   <property name="text">
+    <string>New (Copy)</string>
+   </property>
+  </action>
+  <action name="actionAddBefore">
+   <property name="text">
+    <string>Add Before</string>
+   </property>
+  </action>
+  <action name="actionDelete_A_row">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionNew_Template_Copy">
+   <property name="text">
+    <string>New (Copy)</string>
+   </property>
+  </action>
+  <action name="actionDelete_Template">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionAdd_After">
+   <property name="text">
+    <string>Add After</string>
+   </property>
+  </action>
+  <action name="actionDeleteApp">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionAddIcon">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionDeleteIcon">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionAdd_Mask">
+   <property name="text">
+    <string>Add Mask</string>
+   </property>
+  </action>
+  <action name="actionRow_Config">
+   <property name="text">
+    <string>Row Configuration</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

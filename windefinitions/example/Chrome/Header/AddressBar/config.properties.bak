@@ -1,0 +1,7 @@
+belong=GUIItem
+Index=2
+NumberOfVisualCue=1
+ToBeScraped=true
+V1.name=Store
+V1.icons=store
+V1.isunique=true

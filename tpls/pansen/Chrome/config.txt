@@ -1,0 +1,5 @@
+ROWS 4
+URL 2
+CONTENT 4
+FIRST_DETECT TRUE
+arrow_back refresh refresh_2 tool

@@ -1,0 +1,13 @@
+Belong=GUIItem
+Index=1
+NumberOfVisualCue=3
+ToBeScraped=false
+V1.name=Go Back
+V1.icons=go_back, go_back2
+V1.isunique=true
+V2.name=Go Forward
+V2.icons=go_forward, go_forward2
+V2.isunique=true
+V3.name=Refresh
+V3.icons=refresh, refresh2
+V3.isunique=true

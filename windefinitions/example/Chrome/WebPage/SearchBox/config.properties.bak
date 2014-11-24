@@ -1,0 +1,6 @@
+Belong=GUIItem
+NumberOfVisualCue=1
+ToBeScraped=true
+V1.name=search
+V1.icons=google, baidu
+V1.isunique=true
